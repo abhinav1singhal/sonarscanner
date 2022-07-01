@@ -12,7 +12,7 @@ type LoggingSectionProps = {
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void
   sidebarId: string
 }
-
+//testing
 const LoggingSection = ({ form, editing, onToggle, onChange, sidebarId }: LoggingSectionProps) => (
   <>
     <h1 id={sidebarId} className={styles.sectionTitle}>
